@@ -1,0 +1,210 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    z-index: 99;
+    
+}
+
+header{
+    border: 50px;
+    padding-left: 0%;
+
+}
+body{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    min-height: 100vh;
+    background:purple;
+    background-size: cover;
+    background-position: center;
+    top: 30%;
+    right: 40%;
+    left: 30%;
+    
+}
+.head{
+    top: 0;
+    align-items: center;
+}
+h1{
+    text-align:center;
+    color: azure;
+    font-family: inherit
+    font-size: medium;
+    
+}
+
+.small-image{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+
+}
+.wrapper{
+    color: aliceblue;
+    right: 60%;
+    left: 10%;
+    text-align: left;
+    
+    padding-left: 60%;
+
+}
+.header-left
+{
+    float: left;
+    color: white;
+    font-style:oblique;
+    font-size:small;
+    font-family: sans-serif;
+    position: fixed;
+    left: 3%;
+    top: 0%;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    padding: 10px 0px;
+    margin: 0;
+    height: 30px;
+
+    display: flex;
+    background-color: black;
+    justify-content:space-between; 
+    align-items: Right;
+    z-index: 99;
+}
+
+.logo{
+    font-size: 2em;
+    color: black;
+ }
+ 
+ .navigation a{
+     position: relative;
+     font-size: .6em;
+     color: white;
+     padding-right: 10;
+     font-weight: 500;
+     margin-left: 80px;
+    
+
+     
+ }
+ .navigation a:hover{
+    width: 100px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 9px;
+    cursor: pointer;
+    background-color: blue;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+ }
+
+ 
+ 
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.social-icons a {
+    margin-left: 10px; /* Adjust the space between social icons */
+}
+
+.social-icons img {
+    width: 30px; /* Adjust the width of social icons */
+    height: auto;
+}
+.icon-link{
+    display: inline-block;
+    margin-right: 10px;
+}
+.icon-link img{
+    width: 40px;
+    height:auto;
+}
+ 
+.social-icons2 {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 67%;
+    right: 400px;
+}
+
+.social-icons2 a {
+    margin-left: 10px; /* Adjust the space between social icons */
+}
+
+.social-icons2 img {
+    width: 30px; /* Adjust the width of social icons */
+    height: auto;
+}
+.label
+{
+    font-size:x-small;
+}
+
+.about-us {
+    background-color:darkmagenta; /* Background color for About Us section */
+    padding: 20px;
+    text-align: center; /* Center text horizontally */
+    position: absolute; /* Position absolutely within the body */
+    top: 15%; /* Move 50% from the top of the body */
+    left: 50%; /* Move 50% from the left of the body */
+    transform: translate(-50%, -50%);
+    width: 100%;
+    color: white;
+    font-size:x-large;
+    font-family:cursive;
+  }
+  .studio-section {
+    background-color:darkmagenta; /* Change this to the desired background color */
+    color: #fff; /* Text color for better contrast */
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    top: 85%;
+    font-family: cursive;
+
+    width: 100%;
+
+  }
+  
+  /* Style for the content within the studio section */
+  .studio-content {
+     /* Adjust the width as needed */
+    
+    
+    left: 50%;
+    bottom: 0%;
+    text-align: center;
+    width: 100%;
+    
+  }
+  
+  .studio-content h2 {
+    font-size: 24px;
+    font-size:xx-large;
+  }
+
+
+  
